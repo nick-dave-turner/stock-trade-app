@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot 1`] = `
+<Header>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "cNpysZ",
+            "rules": Array [
+              "
+  position: fixed;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 5rem;
+  background: #ffffff;
+  border-bottom: 2px solid #dddddd;
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="sc-bdVaJa cNpysZ"
+      >
+        <styled.h1>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "gEkkPo",
+                  "rules": Array [
+                    "
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+",
+                  ],
+                },
+                "displayName": "styled.h1",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "h1",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <h1
+              className="sc-bwzfXH gEkkPo"
+            >
+              Stock Trades
+            </h1>
+          </StyledComponent>
+        </styled.h1>
+      </header>
+    </StyledComponent>
+  </styled.header>
+</Header>
+`;

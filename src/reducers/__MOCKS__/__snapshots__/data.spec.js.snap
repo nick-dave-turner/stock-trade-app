@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MOCK_STOCK_SYMBOLS should match snapshot 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "stockSymbol": "TEA",
+  },
+  Object {
+    "id": 1,
+    "stockSymbol": "POP",
+  },
+  Object {
+    "id": 1,
+    "stockSymbol": "ALE",
+  },
+  Object {
+    "id": 1,
+    "stockSymbol": "GIN",
+  },
+  Object {
+    "id": 1,
+    "stockSymbol": "JOE",
+  },
+]
+`;
+
+exports[`MOCK_STOCKS should match snapshot 1`] = `
+Array [
+  Object {
+    "dividendYield": 0,
+    "fixedDividend": 0,
+    "geometricMean": 0,
+    "id": 1,
+    "lastDividend": 0,
+    "lastPrice": 0,
+    "parValue": 100,
+    "peRatio": 0,
+    "stockSymbol": "TEA",
+    "type": "common",
+    "volumeWeightedStockPrice": 0,
+  },
+  Object {
+    "dividendYield": 0,
+    "fixedDividend": 0,
+    "geometricMean": 0,
+    "id": 1,
+    "lastDividend": 8,
+    "lastPrice": 0,
+    "parValue": 100,
+    "peRatio": 0,
+    "stockSymbol": "POP",
+    "type": "common",
+    "volumeWeightedStockPrice": 0,
+  },
+  Object {
+    "dividendYield": 0,
+    "fixedDividend": 0,
+    "geometricMean": 0,
+    "id": 1,
+    "lastDividend": 23,
+    "lastPrice": 0,
+    "parValue": 60,
+    "peRatio": 0,
+    "stockSymbol": "ALE",
+    "type": "common",
+    "volumeWeightedStockPrice": 0,
+  },
+  Object {
+    "dividendYield": 0,
+    "fixedDividend": 2,
+    "geometricMean": 0,
+    "id": 1,
+    "lastDividend": 8,
+    "lastPrice": 0,
+    "parValue": 100,
+    "peRatio": 0,
+    "stockSymbol": "GIN",
+    "type": "preferred",
+    "volumeWeightedStockPrice": 0,
+  },
+  Object {
+    "dividendYield": 0,
+    "fixedDividend": 0,
+    "geometricMean": 0,
+    "id": 1,
+    "lastDividend": 13,
+    "lastPrice": 0,
+    "parValue": 250,
+    "peRatio": 0,
+    "stockSymbol": "JOE",
+    "type": "common",
+    "volumeWeightedStockPrice": 0,
+  },
+]
+`;

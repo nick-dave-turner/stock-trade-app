@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StocksTable component should match snapshot 1`] = `
+<Widget
+  title="My Stocks"
+>
+  <TableComponent
+    colDefs={
+      Array [
+        "Stock",
+        "Dividend Yield",
+        "P/E Ratio",
+        "Geometric Mean",
+        "Volume Weighted Stock Price",
+      ]
+    }
+    rowData={
+      Array [
+        Object {
+          "dividendYield": null,
+          "geometricMean": null,
+          "peRatio": null,
+          "stockSymbol": "TEA",
+          "volumeWeightedStockPrice": null,
+        },
+        Object {
+          "dividendYield": null,
+          "geometricMean": null,
+          "peRatio": null,
+          "stockSymbol": "POP",
+          "volumeWeightedStockPrice": null,
+        },
+      ]
+    }
+  />
+</Widget>
+`;

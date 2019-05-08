@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component When required props are complete should match snapshot 1`] = `
+<TableComponent
+  colDefs={
+    Array [
+      "Test Column 1",
+      "Test Column 2",
+    ]
+  }
+  rowData={
+    Array [
+      Object {
+        "col1": "Row 1 Column 1",
+        "col2": "Row 1 Column 2",
+      },
+      Object {
+        "col1": "Row 2 Column 1",
+        "col2": "Row 2 Column 2",
+      },
+    ]
+  }
+>
+  <styled.table>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "iaJAfk",
+            "rules": Array [
+              "
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 2px solid #ddd;
+",
+            ],
+          },
+          "displayName": "styled.table",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "table",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <table
+        className="sc-bdVaJa iaJAfk"
+      >
+        <thead>
+          <tr>
+            <Styled(styled.td)
+              key="0"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "lastClassName": "dbYbrP",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                        "
+  padding: 0.625rem;
+  text-align: left;
+  font-weight: bold;
+  background: #ededed;
+",
+                      ],
+                    },
+                    "displayName": "Styled(styled.td)",
+                    "foldedComponentIds": Array [
+                      "sc-bwzfXH",
+                    ],
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH sc-htpNat dbYbrP"
+                >
+                  Test Column 1
+                </td>
+              </StyledComponent>
+            </Styled(styled.td)>
+            <Styled(styled.td)
+              key="1"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "lastClassName": "dbYbrP",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                        "
+  padding: 0.625rem;
+  text-align: left;
+  font-weight: bold;
+  background: #ededed;
+",
+                      ],
+                    },
+                    "displayName": "Styled(styled.td)",
+                    "foldedComponentIds": Array [
+                      "sc-bwzfXH",
+                    ],
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH sc-htpNat dbYbrP"
+                >
+                  Test Column 2
+                </td>
+              </StyledComponent>
+            </Styled(styled.td)>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="0"
+          >
+            <styled.td
+              key="0"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "dPnueb",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                      ],
+                    },
+                    "displayName": "styled.td",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH dPnueb"
+                >
+                  Row 1 Column 1
+                </td>
+              </StyledComponent>
+            </styled.td>
+            <styled.td
+              key="1"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "dPnueb",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                      ],
+                    },
+                    "displayName": "styled.td",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH dPnueb"
+                >
+                  Row 1 Column 2
+                </td>
+              </StyledComponent>
+            </styled.td>
+          </tr>
+          <tr
+            key="1"
+          >
+            <styled.td
+              key="0"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "dPnueb",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                      ],
+                    },
+                    "displayName": "styled.td",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH dPnueb"
+                >
+                  Row 2 Column 1
+                </td>
+              </StyledComponent>
+            </styled.td>
+            <styled.td
+              key="1"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "dPnueb",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                      ],
+                    },
+                    "displayName": "styled.td",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH dPnueb"
+                >
+                  Row 2 Column 2
+                </td>
+              </StyledComponent>
+            </styled.td>
+          </tr>
+        </tbody>
+      </table>
+    </StyledComponent>
+  </styled.table>
+</TableComponent>
+`;
+
+exports[`Table component When required props are empty should match snapshot 1`] = `
+<TableComponent
+  colDefs={Array []}
+  rowData={Array []}
+>
+  <styled.table>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "iaJAfk",
+            "rules": Array [
+              "
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 2px solid #ddd;
+",
+            ],
+          },
+          "displayName": "styled.table",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "table",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <table
+        className="sc-bdVaJa iaJAfk"
+      >
+        <thead>
+          <tr />
+        </thead>
+        <tbody>
+          <tr>
+            <styled.td
+              colSpan={0}
+            >
+              <StyledComponent
+                colSpan={0}
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "dPnueb",
+                      "rules": Array [
+                        "
+  padding: 0.625rem;
+  border: 1px solid #ddd;
+  background: white;
+",
+                      ],
+                    },
+                    "displayName": "styled.td",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "td",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <td
+                  className="sc-bwzfXH dPnueb"
+                  colSpan={0}
+                >
+                  <styled.p>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bxivhb",
+                            "isStatic": true,
+                            "lastClassName": "jXeQqu",
+                            "rules": Array [
+                              "
+  margin: 0;
+  text-align: center;
+",
+                            ],
+                          },
+                          "displayName": "styled.p",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bxivhb",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="sc-bxivhb jXeQqu"
+                      >
+                        You currently have no entries to display.
+                      </p>
+                    </StyledComponent>
+                  </styled.p>
+                </td>
+              </StyledComponent>
+            </styled.td>
+          </tr>
+        </tbody>
+      </table>
+    </StyledComponent>
+  </styled.table>
+</TableComponent>
+`;

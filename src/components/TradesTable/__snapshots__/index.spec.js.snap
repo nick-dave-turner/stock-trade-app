@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TradesTable component should match snapshot 1`] = `
+<Widget
+  title="Recent Trades"
+>
+  <TableComponent
+    colDefs={
+      Array [
+        "Transaction Date",
+        "Stock",
+        "Price",
+        "No. Shares Purchased",
+      ]
+    }
+    rowData={
+      Array [
+        Object {
+          "price": 100,
+          "quantity": 200,
+          "stockSymbol": "TEST",
+          "timestamp": "5/5/2019, 5:47:10 PM",
+        },
+        Object {
+          "price": 100,
+          "quantity": 200,
+          "stockSymbol": "TEST",
+          "timestamp": "5/5/2019, 12:12:10 PM",
+        },
+        Object {
+          "price": 100,
+          "quantity": 200,
+          "stockSymbol": "TEST",
+          "timestamp": "5/4/2019, 5:47:10 PM",
+        },
+      ]
+    }
+  />
+</Widget>
+`;

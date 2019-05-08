@@ -2,8 +2,11 @@
   "name": "stock-trade-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nick-dave-turner.github.io/stock-trade-app",
   "dependencies": {
-    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "jest-styled-components": "^6.3.1",
+    "polished": "^3.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
@@ -11,8 +14,8 @@
     "react-scripts": "3.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "thunk": "^0.0.1",
-    "uid": "^0.0.2"
+    "styled-components": "^4.2.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "enzyme": "^3.9.0",
@@ -20,11 +23,16 @@
     "enzyme-to-json": "^3.3.5",
     "flow-bin": "^0.98.0",
     "husky": "^2.1.0",
+    "jest": "^24.7.1",
+    "jest-enzyme": "^7.0.2",
     "lint-staged": "^8.1.5",
     "prettier": "^1.17.0",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

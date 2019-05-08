@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should match snapshot 1`] = `
+<Footer>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "bVruJa",
+            "rules": Array [
+              "
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding: 0 5rem;
+  background: #ffffff;
+  border-top: 2px solid #dddddd;
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="sc-bdVaJa bVruJa"
+      />
+    </StyledComponent>
+  </styled.header>
+</Footer>
+`;

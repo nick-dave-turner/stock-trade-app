@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TradesForm component should match snapshot 1`] = `
+<Widget
+  title="Make a trade"
+>
+  <form>
+    <styled.div>
+      <styled.select
+        name="stockSymbol"
+        onChange={[Function]}
+        placeholder="Stock"
+        value=""
+      >
+        <option>
+          Choose Stock
+        </option>
+        <option
+          key="1"
+          value="TEST "
+        >
+          TEST 
+        </option>
+      </styled.select>
+    </styled.div>
+    <styled.div>
+      <styled.input
+        name="price"
+        onChange={[Function]}
+        placeholder="Price"
+        type="number"
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <styled.input
+        name="quantity"
+        onChange={[Function]}
+        placeholder="Quantity"
+        type="number"
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <styled.button
+        disabled={true}
+        name="submit-button"
+        onClick={[Function]}
+        type="submit"
+      >
+        Submit trade
+      </styled.button>
+    </styled.div>
+  </form>
+</Widget>
+`;
