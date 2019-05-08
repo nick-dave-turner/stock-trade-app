@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/stock-trade-app/static/js/main.6d15dbc7.chunk.js",
+    "main.js.map": "/stock-trade-app/static/js/main.6d15dbc7.chunk.js.map",
+    "runtime~main.js": "/stock-trade-app/static/js/runtime~main.5487add5.js",
+    "runtime~main.js.map": "/stock-trade-app/static/js/runtime~main.5487add5.js.map",
+    "static/js/2.141607ef.chunk.js": "/stock-trade-app/static/js/2.141607ef.chunk.js",
+    "static/js/2.141607ef.chunk.js.map": "/stock-trade-app/static/js/2.141607ef.chunk.js.map",
+    "index.html": "/stock-trade-app/index.html",
+    "precache-manifest.2025daff4049539b7f7c68a0fe192a96.js": "/stock-trade-app/precache-manifest.2025daff4049539b7f7c68a0fe192a96.js",
+    "service-worker.js": "/stock-trade-app/service-worker.js"
+  }
+}
